@@ -1,0 +1,32 @@
+@import '~antd/dist/antd.less';
+
+@layout-header-background:'white';
+
+.header {
+    position: absolute;
+    width: calc(100% - 300px);
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    z-index         : 1;
+    height          : 73px;
+    // border-top-left-radius: 20px;
+    background-color: #fff !important;
+}
+
+.content {
+    background-color: #fff !important;
+    margin-top: 60px !important;
+    // margin-left: 15px !important;
+    // margin-right: 15px !important;
+    // margin-bottom: 10px !important;
+    padding: 24px !important;
+    height: calc(100vh - 170px ) !important;
+    // border-bottom-left-radius: 20px;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.layout{
+    background-color: @layout-header-background !important;
+}

@@ -1,0 +1,62 @@
+@import '~antd/dist/antd.less';
+@import '../../utils/color.less';
+.menu {
+    display    : flex;
+    align-items: center;
+    flex-flow  : column;
+    width      : 100% !important;
+    margin-top: 3rem !important;
+}
+
+.drawer{
+    background-color: white !important;
+    width: 260px !important;
+    flex: unset !important;
+    max-width: unset !important;
+    max-height: 100vh !important;
+    overflow: auto
+}
+
+.namespace{
+    display: flex;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Aldrich' !important;
+    color: white;
+    background-color: @primary-color;
+    padding-left: 1.3rem;
+    height: 73px;
+    justify-content: center;
+    align-items: center;
+    // margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    //   border-top-left-radius: 16px !important;
+}
+.menuItem{
+    margin: 0.7rem !important;
+    font-size: 18px;
+    align-items: center;
+    padding-left: 2rem !important;
+    div svg{
+        margin-right: 1rem !important;
+        width: 20px !important;
+        height: 20px !important;
+        margin-top: 1rem !important;
+    }
+    path{
+    }
+}
+
+.marginRight{
+    margin-right: 1rem !important;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.manuItemName{
+    font-size: 18px;
+    font-weight: 600;
+    color:@subTextColor;
+}
